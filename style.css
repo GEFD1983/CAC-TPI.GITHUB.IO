@@ -1,64 +1,6 @@
 header {
-    .logo img { max-width: 100px; }
-    .bg-dark { background: #333a40!important; }
-    .navbar-dark .navbar-nav .btn-compra-tickets { color: #25a342; }
-
-    @media (min-width: 992px) {
-  .btn-compra-tickets {
-    border: 1px solid transparent;
-    border-radius: .8rem;
-  }
-  .btn-compra-tickets:hover,
-  .navbar-dark .navbar-nav .btn-compra-tickets.active {
-    background: #25a342;
-  }
+    background: grey;
 }
-
-.pt-section { padding-top: 7rem; }
+p {
+color: crimson;
 }
-
-.ct {
-    color: rgb(28, 182, 48);
-}
-.nav-list {
-    flex-direction: row;
-    display:flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    gap: 2em;
-    font-size: 1.2em;
-}
-
-
-ul {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-}
-
-
-.primera { 
-margin: 0px;
-width: 100%;  filter: brightness(50%);
-}
-
-#oradores {
-    text-align: center; font-size: x-large; 
-}
-.oradores {
-	display: flex; justify-content:space-around;         
-}
-
-.exp {
-   height: 500px; 
-}
-
-#bs_as_octubre {
-    color: white; font-size:large; background-color: rgb(71, 70, 70);
-    display: block;
-width: 100%;
-}
-
